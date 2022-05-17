@@ -1,0 +1,122 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/background/main_menu_background.png" type="Texture" id=1]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/main_menu.gd" type="Script" id=2]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/background/logo.png" type="Texture" id=3]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/background/slogan_text.png" type="Texture" id=4]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/menu_button.tscn" type="PackedScene" id=5]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/practice_text_disabled.png" type="Texture" id=6]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/practice_sprite_disabled.png" type="Texture" id=7]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/about_sprite_disabled.png" type="Texture" id=8]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/about_text_disabled.png" type="Texture" id=9]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/settings_sprite.png" type="Texture" id=10]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/settings_text.png" type="Texture" id=11]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/login_text_disabled.png" type="Texture" id=12]
+[ext_resource path="res://scenes_and_scripts/screen__main_menu/buttons/login_button.tscn" type="PackedScene" id=13]
+
+[node name="MainMenu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 2 )
+
+[node name="BackgroundRect" type="TextureRect" parent="."]
+margin_right = 720.0
+margin_bottom = 1280.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="LogoRect" type="TextureRect" parent="."]
+margin_left = 239.0
+margin_top = 80.0
+margin_right = 489.0
+margin_bottom = 330.0
+rect_min_size = Vector2( 250, 250 )
+texture = ExtResource( 3 )
+expand = true
+stretch_mode = 6
+
+[node name="SloganRect" type="TextureRect" parent="."]
+margin_left = 136.0
+margin_top = 360.0
+margin_right = 578.0
+margin_bottom = 420.0
+rect_min_size = Vector2( 442, 60 )
+texture = ExtResource( 4 )
+expand = true
+stretch_mode = 6
+
+[node name="BtnGame" parent="." instance=ExtResource( 5 )]
+margin_left = 136.0
+margin_top = 488.0
+margin_right = 323.0
+margin_bottom = 677.0
+
+[node name="TextureBtn" parent="BtnGame" index="1"]
+stretch_mode = 5
+
+[node name="BtnPractice" parent="." instance=ExtResource( 5 )]
+margin_left = 392.0
+margin_top = 488.0
+margin_right = 579.0
+margin_bottom = 677.0
+
+[node name="TextureBtn" parent="BtnPractice" index="1"]
+margin_left = 32.0
+margin_right = 286.0
+texture_normal = ExtResource( 7 )
+
+[node name="TextRect" parent="BtnPractice" index="2"]
+margin_left = 0.0
+margin_right = 324.0
+texture = ExtResource( 6 )
+
+[node name="BtnAbout" parent="." instance=ExtResource( 5 )]
+margin_left = 136.0
+margin_top = 760.0
+margin_right = 323.0
+margin_bottom = 949.0
+
+[node name="TextureBtn" parent="BtnAbout" index="1"]
+texture_normal = ExtResource( 8 )
+
+[node name="TextRect" parent="BtnAbout" index="2"]
+margin_left = 24.0
+margin_right = 258.0
+texture = ExtResource( 9 )
+
+[node name="BtnConfig" parent="." instance=ExtResource( 5 )]
+margin_left = 392.0
+margin_top = 760.0
+margin_right = 579.0
+margin_bottom = 949.0
+
+[node name="TextureBtn" parent="BtnConfig" index="1"]
+margin_left = 32.0
+margin_top = 40.0
+margin_right = 293.0
+margin_bottom = 301.0
+rect_scale = Vector2( 0.45, 0.45 )
+texture_normal = ExtResource( 10 )
+
+[node name="TextRect" parent="BtnConfig" index="2"]
+margin_left = 24.0
+margin_right = 274.0
+texture = ExtResource( 11 )
+
+[node name="LoginButton" parent="." instance=ExtResource( 13 )]
+margin_left = 136.0
+margin_top = 1056.0
+margin_right = 577.0
+margin_bottom = 1161.0
+
+[node name="TextRect" parent="LoginButton" index="0"]
+margin_left = 112.0
+margin_right = 347.0
+margin_bottom = 74.0
+texture = ExtResource( 12 )
+
+[editable path="BtnGame"]
+[editable path="BtnPractice"]
+[editable path="BtnAbout"]
+[editable path="BtnConfig"]
+[editable path="LoginButton"]

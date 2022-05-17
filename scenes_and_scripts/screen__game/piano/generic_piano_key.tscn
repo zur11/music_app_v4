@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://scenes_and_scripts/screen__game/piano/generic_piano_key.gd" type="Script" id=1]
+
+[node name="GenericButton" type="Button"]
+modulate = Color( 1, 1, 1, 0 )
+margin_right = 88.0
+margin_bottom = 280.0
+script = ExtResource( 1 )
