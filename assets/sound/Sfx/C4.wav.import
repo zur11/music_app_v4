@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/C4.wav-19a5d9ef483805f3704ce06646d9083f.sample"
+
+[deps]
+
+source_file="res://assets/sound/Sfx/C4.wav"
+dest_files=[ "res://.import/C4.wav-19a5d9ef483805f3704ce06646d9083f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

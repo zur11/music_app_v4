@@ -31,6 +31,7 @@ ScreenManager="*res://scenes_and_scripts/gl_singl__screen_manager/screen_manager
 AnimatedSceneManager="*res://scenes_and_scripts/gl_singl__animated_scene_manager/animated_scene_manager.gd"
 ObjectAnimationsRepository="*res://scenes_and_scripts/gl_singl__object_animations_repository/object_animations_repository.gd"
 Signals="*res://scenes_and_scripts/gl_singl__signals/signals.gd"
+SoundGenerator="*res://scenes_and_scripts/gl_singl__sound_generator/sound_generator.gd"
 
 [display]
 

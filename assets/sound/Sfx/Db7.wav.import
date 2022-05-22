@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Db7.wav-7c7e237e61a68bba11b1c80c830d193a.sample"
+
+[deps]
+
+source_file="res://assets/sound/Sfx/Db7.wav"
+dest_files=[ "res://.import/Db7.wav-7c7e237e61a68bba11b1c80c830d193a.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/A7.wav-14541038d6a18e5aa2bd2d7169ae2cd1.sample"
+
+[deps]
+
+source_file="res://assets/sound/Sfx/A7.wav"
+dest_files=[ "res://.import/A7.wav-14541038d6a18e5aa2bd2d7169ae2cd1.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

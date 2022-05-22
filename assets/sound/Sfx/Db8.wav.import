@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Db8.wav-ec18a6dff41b79be3c5d827e17c1c127.sample"
+
+[deps]
+
+source_file="res://assets/sound/Sfx/Db8.wav"
+dest_files=[ "res://.import/Db8.wav-ec18a6dff41b79be3c5d827e17c1c127.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0
